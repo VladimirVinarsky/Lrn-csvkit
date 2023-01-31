@@ -1,0 +1,48 @@
+<h1 id="learn-how-to-use-the-csv-kit">Learn how to use the csv kit</h1>
+<h2 id="resources">Resources</h2>
+<p><a href="https://csvkit.readthedocs.io/en/latest/tutorial.html">link to tutorial page</a><br />
+<a href="https://csvkit.readthedocs.io/en/latest/cli.html">link to references and full manual for functions</a></p>
+<h2 id="installing">1.2 installing</h2>
+<p>sudo pip install csvkit</p>
+<p>This worked, but also recomend using virtualenv to keep the python packages in better order.</p>
+<h2 id="getting-the-data">1.3 Getting the data</h2>
+<p>mkdir csvkit_tutorial cd csvkit_tutorial</p>
+<p>curl -L -O https://raw.githubusercontent.com/wireservice/csvkit/master/examples/realdata/ne_1033_data.xlsx</p>
+<h2 id="in2csv-the-excel-killer">1.4 in2csv the excel killer</h2>
+<p><em>transform to csv and show in terminal</em><br />
+in2csv ne_1033_data.xlsx</p>
+<p><em>transform to csv and save as data.csv</em><br />
+in2csv ne_1033_data.xlsx &gt; data.csv</p>
+<h2 id="csvlook-dataperiscope">1.5 csvlook: dataperiscope</h2>
+<p><em>to get the rough idea of the data use csvlook</em><br />
+csvlook data.csv</p>
+<p><em>to get it paged, separated in columns and able to navigate through, use less</em><br />
+csvlook data.csv | less -S</p>
+<h2 id="csvcut-datascalpel">1.6 csvcut: datascalpel</h2>
+<p><em>to select and reorder columns</em><br />
+* to display the numbers and names of the columns use -n flag*<br />
+csvcut -n data.csv</p>
+<p><em>to display just columns of given numbers use <code>-c flag</code></em><br />
+csvcut -c 2,5,6 data.csv</p>
+<p><em>to see the selected columns in the nice less -S format combine with csvlook</em><br />
+</p>
+<p>csvcut -c 2,5,6 data.csv | csvlook | less -S</p>
+<p><em>csvcut also understands the names of the columns as long as there are no spaces after commas</em><br />
+<em>the commas are tricky, if in the name double quote (even in beginning in the column name)</em><br />
+csvcut -c county,item_name,quantity data.csv</p>
+<h2 id="connecting-commads-through-pipes">1.7 connecting commads through pipes</h2>
+<p>easy, not much to add here</p>
+<h1 id="examining-the-data">2. Examining the data</h1>
+<h2 id="csvstat-statistics-without-code">2.1 csvstat: statistics without code</h2>
+<p><em>inspired by the summary from, pick columns and and pipe to stat</em><br />
+csvcut -c county,acquisition_cost,ship_date data.csv | csvstat</p>
+<h2 id="csvgrep-find-the-data-you-need">csvgrep: find the data you need</h2>
+<p><em>csvgrep with -c flag sets columns where to search, -m flag what to search</em><br />
+csvcut -c county,item_name,total_cost data.csv | csvgrep -c county -m LANCASTER | csvlook</p>
+<p><em>the -r flag gives you the chance to go for regular expressions“<em><br />
+</em>in case of -r flag the pattern needs to be doublequoted<em><br />
+</em>case insensitivity is achieved by”(?i)pattern"</em><br />
+</p>
+<p>csvgrep -c 2 -r “(?i)lancaster” data.csv | csvcut -c 1,2,5 | csvlook | less -S</p>
+<p><em>The insensitivity flag applies to all the expressions afterwards</em><br />
+csvgrep -c 5 -r “(?i)ri|li” data.csv | csvcut -c 1,2,5 | csvlook | less -S</p>
