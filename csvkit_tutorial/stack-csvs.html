@@ -1,0 +1,15 @@
+<h1 id="stack-first-lines-of-csvs-together">Stack first lines of csvs together</h1>
+<h2 id="csvstack-approach">csvstack approach</h2>
+<ol type="1">
+<li><p>stack the csvs –filename flag creates a column with filenames<br />
+<code>csvstack --filenames data*t.csv &gt; stacked.csv</code></p></li>
+<li><p>select the (number of peaks) you want to keep<br />
+<code>csvgrep -c peakNo -r "^[1-2]$" stacked.csv &gt; filtered.csv</code></p></li>
+</ol>
+<p>Or this is an alternative  <code>csvgrep -c peakNo -r "^1|2$" stacked.csv &gt; filtered.csv</code></p>
+<ol start="3" type="1">
+<li><p>Look at the data<br />
+<code>csvlook filtered.csv</code></p></li>
+<li><p>Do a summary statistics<br />
+<code>csvstat filtered.csv</code></p></li>
+</ol>
