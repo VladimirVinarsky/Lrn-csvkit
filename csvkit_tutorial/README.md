@@ -1,4 +1,6 @@
-# Stack first lines of csvs together
+# **Learn the csvkit command line goodness**
+
+# My application - Stack first lines of csvs together
 
 ## csvstack approach 
 1. stack the csvs --filename flag creates a column with filenames\
@@ -31,11 +33,7 @@ csvgrep -c 1 -ir "pattern" first-two-rows.csv > headers-removed.csv
 
 This works, the only trouble is I would like to have a column with a file name there and not use awk to do it.
 
-
-
-
-
-# Learn how to use the csv kit
+# Learn how to use the csv kit from tutorial and docs
 ## Resources
 [link to tutorial page](https://csvkit.readthedocs.io/en/latest/tutorial.html)\
 [link to references and full manual for functions](https://csvkit.readthedocs.io/en/latest/cli.html)
