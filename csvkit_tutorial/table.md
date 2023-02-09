@@ -1,0 +1,11 @@
+| group          | peakNo | min | max |
+| -------------- | ------ | --- | --- |
+| data1-test.csv |      1 |   2 |  20 |
+| data1-test.csv |      2 |  13 |  34 |
+| data2-test.csv |      1 |   3 | 205 |
+| data2-test.csv |      2 |  13 |  34 |
+| data2-test.csv |      3 |  13 |  34 |
+| data2-test.csv |      4 |  13 |  34 |
+| data3-test.csv |      2 |  13 |  34 |
+| data3-test.csv |      3 |  13 |  34 |
+| data3-test.csv |      4 |  13 |  34 |
