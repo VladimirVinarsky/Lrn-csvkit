@@ -159,15 +159,23 @@ This works, the only trouble is I would like to have a column with a file name t
 [link to tutorial page](https://csvkit.readthedocs.io/en/latest/tutorial.html)\
 [link to references and full manual for functions](https://csvkit.readthedocs.io/en/latest/cli.html)
 
-## 1.2 installing
-sudo pip install csvkit
+## 1.2 installing using gitbash
 
-This worked, but also recomend using virtualenv to keep the python packages in better order.
+1. `pip --version` check if the pip is installed
+2. `pip install csvkit` try to install
+3. in case the output contains Warining is not in the path, add the folder to the path following way:
+    * `PATH_BACKUP=$PATH` create a copy of path just in case
+    * the path is formatted in windows style `C:\something\something` and needs to be reformatted into linux style
+    * copy the path of the folder indicated in the folder in text file
+    * first replace the '\\' with '/'
+    * second change 'C:' into '/c/' 
+    * in the terminal add the changed string into the PATH using `PATH=$PATH:<your string>`
+    * `echo $PATH` to see if it is there
+4. `csvkit --version` to see if it is installed
 
 ## 1.3 Getting the data
 mkdir csvkit_tutorial
 cd csvkit_tutorial
-
 curl -L -O https://raw.githubusercontent.com/wireservice/csvkit/master/examples/realdata/ne_1033_data.xlsx
 
 ## 1.4 in2csv the excel killer

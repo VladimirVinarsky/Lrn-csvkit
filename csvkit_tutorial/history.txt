@@ -1,0 +1,500 @@
+   47  git log
+   48  git status
+   49  git add *
+   50  git commit --amend
+   51  cd ..
+   52  cd academic-test/
+   53  cd ..
+   54  cd ananke-test/
+   55  git push
+   56  git pull
+   57  hugo server
+   58  git pull
+   59  git push
+   60  cd ../academic-test/
+   61  ls
+   62  git status
+   63  git push
+   64  exit
+   65  find SHIPPED
+   66  find email
+   67  find EMAIL
+   68  find */EMAIL*
+   69  vim cmiel.md
+   70  ls
+   71  rm 08-04-2024_VCmiel.md cmiel.md 
+   72  echo "FNUSA-MAIL" >> V*.md
+   73  echo "FNUSA-MAIL" >> VCmiel_2024-03-25_napln-semestralni_01.md
+   74  echo "FNUSA-MAIL" >> VCmiel_2024-04-08_dotaz-semestralni.md 
+   75  echo "fnusa" >> VCmiel_2024-04-08_dotaz-semestralni.md 
+   76  echo "fnusa" >> VCmiel_2024-03-25_napln-semestralni_01.md
+   77  vim PSlanco_2024-27-03_UHAL-Zing-training.md
+   78  mv PSlanco_2024-27-03_UHAL-Zing-training.md PSlanco_2024-03-27_UHAL-Zing-training.md 
+   79  vim PSlanco_2024-04-27_UHAL-Zing-training_02.md
+   80  vim NVaskovicova_2024-04-08_agarose-blocks-preparation.md
+   81  UHALSK_2024-04-09_UHAL-optimalizace.md
+   82  vim UHALSK_2024-04-09_UHAL-optimalizace.md
+   83  ls
+   84  mv UHALSK_2024-04-09_UHAL-optimalizace.md UHALSK_2024-04-09_UHAL-optimalizace_done.md 
+   85  exit
+   86  find *deklarace*
+   87  find -r *deklarace*
+   88  find *declaration*
+   89  find *prohlaseni*
+   90  find *gao1994*
+   91  find . -f *gao1994*
+   92  find help
+   93  help find
+   94  find --help
+   95  find -depth 3 gao1994
+   96  find -depth 3 . gao1994
+   97  find -depth3 . gao1994
+   98  find -maxdepth 3 . gao1994
+   99  find -maxdepth 3 gao1994
+  100  exit
+  101  find *warhol*
+  102  find *Ivaska*
+  103  find *Conwa*
+  104  cd ..
+  105  find *warhol*
+  106  find *panel*
+  107  cd SHIPPED/
+  108  ls
+  109  cd ORDERS/
+  110  ls
+  111  cd 2023-03-20/
+  112  ls
+  113  cd ..
+  114  cd ..
+  115  find *proBNP_quotation*
+  116  find -r *proBNP_quotation*
+  117  find --help
+  118  find . -name *proBNP_quotation*
+  119  find . -name *warhol*
+  120  cd ..
+  121  find . -name *warhol*
+  122  exit
+  123  vim config.yml 
+  124  hugo server -D
+  125  vim config.yml 
+  126  hugo server -D
+  127  vim config.yml 
+  128  git add *
+  129  git commit -m "added single page to a menu on the main page"
+  130  git switch main 
+  131  git merge testing
+  132  git branch -D testing 
+  133  git branch testing
+  134  git switch 
+  135  git switch testing 
+  136  vim config.yml 
+  137  git add *
+  138  hugo server -D
+  139  vim config.yml 
+  140  vim content/search.md
+  141  hugo server -D
+  142  ls
+  143  cd content/
+  144  ls
+  145  vim search.md 
+  146  hugo server -D
+  147  cd ..
+  148  hugo server -D
+  149  vim search.md 
+  150  cd content/
+  151  ls
+  152  vim search.md 
+  153  hugo server -D
+  154  cd ..
+  155  hugo server -D
+  156  vim config.yml 
+  157  hugo server -D
+  158  vim content/search.md 
+  159  hugo server -D
+  160  vim config.yml 
+  161  hugo server -D
+  162  git add
+  163  git reset
+  164  vim config.yml 
+  165  git restorr
+  166  git restore
+  167  git restore config.yml 
+  168  vim config.yml 
+  169  git switch main 
+  170  git branch -D testing
+  171  exit
+  172  hugo server -D
+  173  ls
+  174  vim config.yml 
+  175  hugo server -D
+  176  vim posts.md
+  177  hugo server -D
+  178  mv posts.md content/
+  179  hugo server -D
+  180  ls
+  181  cd content/
+  182  ls
+  183  vim posts.md
+  184  cd ..
+  185  vim config.yml 
+  186  hugo server -D
+  187  hugo new publications/first-paper.md
+  188  hugo new publications/second-paper.md
+  189  vim content/publications/second-paper.md
+  190  cd ..
+  191  cd papermod-test/
+  192  ls
+  193  vim config.yml 
+  194  vim content/publications/second-paper.md
+  195  vim content/publications/first-paper.md
+  196  hugo server 
+  197  git add *
+  198  git commit -m "how to add archives with posts"
+  199  cd layouts/
+  200  ls
+  201  tree
+  202  cd ..
+  203  ls
+  204  cd themes/
+  205  ls
+  206  cd PaperMod/
+  207  ls
+  208  cp -r layouts/* ~/Documents/WEB_mechanobiology-of-disease/papermod-test/layouts/
+  209  ls
+  210  cd ..
+  211  cd ..
+  212  ls
+  213  cd layouts/
+  214  ls
+  215  vim _default/
+  216  cd _default/
+  217  ls
+  218  cd _markup/
+  219  ls
+  220  vim render-image.html 
+  221  cd ..
+  222  ls
+  223  vim single.html 
+  224  hugo server
+  225  cd ..
+  226  cd ..
+  227  ls
+  228  hugo server
+  229  ls
+  230  cd content/
+  231  ls
+  232  cd ..
+  233  ls
+  234  cd archetypes/
+  235  ls
+  236  cp default.md publications.md
+  237  vim publications.md 
+  238  cd ..
+  239  hugo new publications/third-paper.md
+  240  vim content/publications/third-paper.md
+  241  hugo server -D
+  242  ls
+  243  cd config.yml 
+  244  vim config.yml 
+  245  hugo server -D
+  246  vim config.yml 
+  247  hugo server -D
+  248  git add *
+  249  git commit -m "Publications subfolder working"
+  250  git switch main 
+  251  hugo server -D
+  252  git merge testing
+  253  git branch -d testing
+  254  git push
+  255  git branch -D testing
+  256  git branch testing
+  257  git switch testing 
+  258  cd layouts/
+  259  ls
+  260  cd _default/
+  261  ls
+  262  cd single.html 
+  263  cd ..
+  264  cd ..
+  265  vim config.yml 
+  266  hugo server -D
+  267  vim config.yml 
+  268  hugo new research.md
+  269  vim content/research.md 
+  270  git add *
+  271  hugo server
+  272  ls
+  273  cd content/
+  274  ls
+  275  cd ..
+  276  vim config.yml 
+  277  hugo server
+  278  vim config.yml 
+  279  cat */*/* | grep menu
+  280  ls
+  281  cd layouts/
+  282  ls
+  283  cd _default/
+  284  ls
+  285  cd _markup/
+  286  ls
+  287  cd ..
+  288  ls
+  289  cd baseof.html 
+  290  vim baseof.html 
+  291  vim terms.html 
+  292  vim index.json 
+  293  cd ..
+  294  ls
+  295  cd partials/
+  296  ls
+  297  cd templates/
+  298  ls
+  299  cd _funcs/
+  300  ls
+  301  cd ..
+  302  cd ..
+  303  ls
+  304  vim post_nav_links.html 
+  305  grep menu *
+  306  vim header.html 
+  307  ls
+  308  vim head.html
+  309  vim header.html 
+  310  git switch 
+  311  git switch main
+  312  git push
+  313  exit
+  314  git pull
+  315  git pull
+  316  vim learning-notes.md
+  317  exit
+  318  cd Documents/
+  319  cd WEB_mechanobiology-of-disease/
+  320  ls
+  321  cd academic-test/
+  322  cd ..
+  323  cd papermod-test/
+  324  ls
+  325  ls content/
+  326  hugo new publications/test-article.md
+  327  vim content/publications/test-article.md 
+  328  hugo server 
+  329  git add *
+  330  git commit -m "add pubmed screenshot as a cover image"
+  331  git push
+  332  exit
+  333  analysis_make_panels helper/
+  334  analysis_make_panels helper/
+  335  vim /usr/bin/analysis_make_panels 
+  336  convert -normalize *.tiff normalized.jpg
+  337  analysis_make_panels helper/
+  338  vim /usr/bin/analysis_make_panels 
+  339  analysis_make_panels helper/
+  340  analysis_make_panels2 helper/
+  341  vim /usr/bin/analysis_make_panels2
+  342  ls
+  343  vim analysis_make_panels2 
+  344  bash analysis_make_panels2 helper/
+  345  vim analysis_make_panels2 
+  346  bash analysis_make_panels2 helper/ 
+  347  bash analysis_make_panels2 helper/A1_Control/ 
+  348  bash analysis_make_panels2 helper
+  349  vim analysis_make_panels2 
+  350  bash analysis_make_panels2 helper
+  351  vim analysis_make_panels2 
+  352  bash analysis_make_panels2 helper
+  353  vim analysis_make_panels2 
+  354  bash analysis_make_panels2 helper
+  355  exit
+  356  bash analysis_make_panels2 helper
+  357  vim analysis_make_panels2 
+  358  analysis_make_panels helper/
+  359  cd helper/
+  360  analysis_make_cells_panel *
+  361  tailscale 
+  362  ls
+  363  cd Documents/
+  364  cd MICROSCOPY_SOURCE/
+  365  ls
+  366  cd Microscopy_2023/
+  367  ls
+  368  tailscale 
+  369  tailscale file 
+  370  ls
+  371  cd 2023-10-18_Besse_opti_calc/
+  372  ls 
+  373  tailscale file  
+  374  tailscale file  -h
+  375  tailscale file cp *.pos 100.126.0.120
+  376  tailscale file cp *.pos 100.126.0.120:
+  377  git log
+  378  git branch
+  379  vim .gitignore
+  380  git add *
+  381  git commit -m "fixed bug in macro, opening files works, updated readme"
+  382  git push
+  383  exit
+  384  mkdir ATRA_CFZ_pos{1..10}
+  385  ls
+  386  rm -r *
+  387  mkdir ATRA_CFZ_pos{01..10}
+  388  ls
+  389  for file in *{01..10}.tif; do echo file ${file%ATRA_CFZ_pos}; done
+  390  for file in *pos{01..10}.tif; do echo file ${file%ATRA_CFZ_pos}; done
+  391  for file in *pos{01..10}.tif; do echo ${file%ATRA_CFZ_pos}; done
+  392  for file in "*"pos{01..10}.tif; do echo ${file%ATRA_CFZ_pos}; done
+  393  for file in *.10}.tif; do echo ${file%ATRA_CFZ_pos}; done
+  394  for file in *{01..10}.tif; do echo ${file%ATRA_CFZ_pos}; done
+  395  for file in *{01..03}.tif; do echo ${file%ATRA_CFZ_pos}; done
+  396  for file in *{01..03}; do echo ${file%ATRA_CFZ_pos}; done
+  397  for file in *{01..03}; do echo ${file%ATRA_CFZ_ }; done
+  398  for file in *{01..03}; do echo "${file%ATRA_CFZ_ }"; done
+  399  ls
+  400  for file in *{01..03}; do echo "${file#ATRA_CFZ_ }"; done
+  401  for file in *{01..03}; do echo "${file#A }"; done
+  402  for file in *{01..03}; do echo "${file%A }"; done
+  403  for file in *{01..03}; do echo "${file%%A }"; done
+  404  for file in *{01..03}; do echo "${file}"; done
+  405  for file in *{01..03}; do echo "${file%3}"; done
+  406  for file in *{01..03}; do echo "${file#A}"; done
+  407  for file in *{01..03}; do echo "${file#ATRA_CFZ_pos}"; done
+  408  for file in *{01..03}.tif; do cp file *"${file#ATRA_CFZ_pos}"/; done
+  409  for file in *{01..03}.tif; do cp file *"${file: -2}"/; done
+  410  for file in *{01..03}.tif; do cp $file *"${file: -2}"/; done
+  411  for file in *{01..03}.tif; do echo *"${file: -2:4}"/; done
+  412  for file in *{01..03}.tif; do echo *"${file: -2:2}"/; done
+  413  for file in *{01..03}.tif; do echo *"${file: -2:-4}"/; done
+  414  for file in *{01..03}.tif; do echo *"${file: -5:2}"/; done
+  415  for file in *{01..03}.tif; do echo *"${file: -6:2}"/; done
+  416  for file in *{01..10}.tif; do cp "$file" *"${file: -6:2}"/; done
+  417  mkdir CFZ_{01.07}
+  418  ls
+  419  rm -r CFZ_{01.07}
+  420  mkdir CFZ_{01..07}
+  421  ls
+  422  for file in *{01..10}.tif; do cp "$file" C*"${file: -6:2}"/; done
+  423  mkdir DMSO+BRT_{01..09}
+  424  for file in *{01..10}.tif; do cp "$file" D*"${file: -6:2}"/; done
+  425  cd ..
+  426  cd ~
+  427  cd Documents/calcium-friend/
+  428  pandoc README.md -o README.docx
+  429  pandoc README.md -o README.html
+  430  git add *
+  431  git commit -m "added copying procedure of files"
+  432  git push
+  433  cd ~
+  434  cd TMP/
+  435  cd calcium-friend/
+  436  cd EXPORT_LINESCANS
+  437  ls
+  438  ls
+  439  cp A*/*.csv .
+  440  for file in *.csv; do mv "$file" "ATRA+CFZ_${file}"; done
+  441  cp D*/*.csv .
+  442  for file in t*.csv; do mv "$file" "DMSO+BRT_${file}"; done
+  443  cp C*/*.csv .
+  444  for file in t*.csv; do mv "$file" "CFZ_${file}"; done
+  445  cp *.csv ../LINESCANS/
+  446  montage *.png -tile 3x5 -geometry 480x480+2+2 panel.jpg
+  447  montage *.png -tile 5x3 -geometry 480x480+2+2 panel.jpg
+  448  mv UHALSK_2024-04-09_UHAL-rezacka-troubleshooting_done.txt UHALSK_2024-04-09_UHAL-rezacka-troubleshooting_done.md
+  449  git log --oneline
+  450  git log
+  451  tailscale ssh 100.105.29.21:
+  452  tailscale ssh vld@100.105.29.21:
+  453  ssh vld@100.105.29.21
+  454  cd Documents/WEB_mechanobiology-of-disease/
+  455  ls
+  456  cd papermod-test/
+  457  ls
+  458  git log
+  459  hugo server -D
+  460  ls
+  461  vim notes/
+  462  cd notes/
+  463  ls
+  464  vim old-website.md
+  465  cd ..
+  466  git add *
+  467  git commit -m "copied the previous website content structure into notes on linux snap is broken WTF"
+  468  git push
+  469  exit
+  470  grep forward *
+  471  grep -i yap *
+  472  grep -i fw *
+  473  grep -i forward *
+  474  vim 2024-04-24_Microfluidics_hello-world.txt 
+  475  find -name tyrode 
+  476  cd ..
+  477  ls
+  478  cd _03_sber-finalni-tabulky-se-scalingem-REDONE/
+  479  ls
+  480  cd compare/
+  481  diff *
+  482  diff * > difference.csv
+  483  diff help
+  484  diff --help
+  485  for file in *.csv; do head -1 >> column-names.csv; done
+  486  for file in *.csv; do head -1 "$file"; done
+  487  for file in *.csv; do head -1 "$file" >> column-names.csv ; done
+  488  for file in *.csv; do head -1 "$file" >> column-names.csv ; done
+  489  rm column-names.csv
+  490  for file in *.csv; do head -1 "$file" >> column-names.csv ; done
+  491  cd ..
+  492  find -name *.R -print
+  493  find -name '*.R' -print
+  494  cd ..
+  495  find -name '*.R' -print
+  496  exit
+  497  magick montage technicak* -tile 1x2 technicak_obe_strany.jpg
+  498  magick info technicak*
+  499  magick identify technicak*
+  500  magick montage technicak* -geometry 4160x3120+20+20 -tile 1x2 technicak_obe_strany.jpg
+  501  pip --version
+  502  pip install csvkit
+  503  echo $PATH
+  504  PATH_BACKUP=$PATH
+  505  echo $PATH_BACKUP
+  506  ADD_PATH_1=\c\Users\vld\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts
+  507  test=\a\
+  508  test="\a\"
+  509  test=\a
+  510  echo $test
+  511  test='\a'
+  512  echo $test
+  513  ADD_PATH_1='\c\Users\vld\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts'
+  514  ADD_PATH_2='/c/Users/vld/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts'
+  515  PATH=$PATH:$ADD_PATH_2
+  516  echo $PATH
+  517  ls
+  518  cd Documents/
+  519  ls
+  520  cd LRN
+  521  ls
+  522  cd Lrn-csvkit/
+  523  ls
+  524  cd csvkit_
+  525  cd csvkit_tutorial/
+  526  ls
+  527  vim README.md 
+  528  less README.md 
+  529  ls
+  530  brave notes_csvkit.html 
+  531  curl --version
+  532  in2csv ne_1033_data.xlsx 
+  533  in2csv ne_1033_data.xlsx > data.csv
+  534  csvlook data.csv
+  535  csvlook data.csv
+  536  csvlook data.csv
+  537  csvkit -n data.csv
+  538  csvcut -n data.csv
+  539  csvcut -c 2,5,6 data.csv
+  540  history
+  541  history | vim
+  542  history > history.txt
+  543  vim history.txt 
+  544  rm history.txt 
+  545  git log
+  546  history > history.txt
